@@ -30,13 +30,13 @@
                  (define-key ,keymap "}" 'paredit-close-curly-and-newline)
                  (define-key ,keymap (kbd ",") 'self-insert-command))))))
 
-(defun pretty-functions ()
-  (font-lock-add-keywords
-   nil `(("\\(function *\\)("
-          (0 (progn (compose-region (match-beginning 1)
-                                    (match-end 1) "ƒ")
-                    nil))))))
-(add-hook 'esk-js-mode-hook 'pretty-functions)
+;; (defun pretty-functions ()
+;;   (font-lock-add-keywords
+;;    nil `(("\\(function *\\)("
+;;           (0 (progn (compose-region (match-beginning 1)
+;;                                     (match-end 1) "ƒ")
+;;                     nil))))))
+;; (add-hook 'esk-js-mode-hook 'pretty-functions)
 
 (if (< (string-to-number emacs-version) 23.2)
     (esk-configure-javascript "espresso")
