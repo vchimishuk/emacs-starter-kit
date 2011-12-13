@@ -6,6 +6,9 @@
 
 (defvar starter-kit-packages (list 'idle-highlight-mode
                                    'ruby-mode
+                                   'php-mode
+                                   'python-mode
+                                   'js2-mode
                                    'inf-ruby
                                    'css-mode
                                    'yaml-mode
