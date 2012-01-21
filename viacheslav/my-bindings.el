@@ -1,4 +1,4 @@
-;;; bindings.el -- User (mine, voice@root.ua) custom key bindings.
+;;; my-bindings.el -- User (mine, voice@root.ua) custom key bindings.
 
 ;;; Some custom keybindings.
 (global-set-key "\C-cg" 'goto-line)

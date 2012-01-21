@@ -1,4 +1,4 @@
-;;; javascript-mode.el -- Custom javascript-mode settings.
+;;; my-javascript-mode-init.el -- Custom javascript-mode settings.
 
 (add-hook 'js-mode-hook (lambda ()
                           (setq indent-tabs-mode nil)
