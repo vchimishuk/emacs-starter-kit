@@ -8,6 +8,7 @@
                                    'ruby-mode
                                    'php-mode
                                    'python-mode
+                                   'go-mode
                                    'inf-ruby
                                    'css-mode
                                    'yaml-mode
