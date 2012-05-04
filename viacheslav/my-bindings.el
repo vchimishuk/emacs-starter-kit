@@ -8,6 +8,7 @@
 (global-set-key "\C-ch" 'help-command)
 (global-set-key [(control w)] 'backward-kill-word)
 (global-set-key "\C-ck" 'kill-region)
+(global-set-key "\C-cc" 'comment-or-uncomment-region)
 ; (global-set-key "\C-[" 'dabbrev-expand)
 ;; Windows resizing.
 (global-set-key (kbd "C-C <left>") 'shrink-window-horizontally)
