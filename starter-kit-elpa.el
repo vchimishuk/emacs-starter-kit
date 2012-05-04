@@ -13,6 +13,7 @@
                                    'css-mode
                                    'yaml-mode
                                    'find-file-in-project
+                                   'auto-complete
                                    'magit
                                    'gist)
   "Libraries that should be installed by default.")
