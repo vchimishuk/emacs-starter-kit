@@ -14,6 +14,7 @@
                                    'yaml-mode
                                    'find-file-in-project
                                    'auto-complete
+                                   'yasnippet
                                    'magit
                                    'gist)
   "Libraries that should be installed by default.")
