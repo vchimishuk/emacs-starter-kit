@@ -7,6 +7,7 @@
 (setq split-width-threshold 200) ; Play with this when autocompletion makes window spli
 (line-number-mode 1)
 (column-number-mode 1)
+(set-face-attribute 'default nil :height (* 10 10))
 
 ;; Color theme.
 (color-theme-wombat)
