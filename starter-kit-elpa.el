@@ -9,6 +9,9 @@
                                    'php-mode
                                    'python-mode
                                    'go-mode
+                                   ;'slime
+                                   ;'slime-repl
+                                   'ac-slime
                                    'inf-ruby
                                    'css-mode
                                    'yaml-mode
