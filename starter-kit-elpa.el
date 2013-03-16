@@ -15,6 +15,7 @@
                                    'inf-ruby
                                    'css-mode
                                    'yaml-mode
+                                   'lua-mode
                                    'find-file-in-project
                                    'auto-complete
                                    'yasnippet
