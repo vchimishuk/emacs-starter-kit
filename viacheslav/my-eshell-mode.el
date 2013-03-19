@@ -18,9 +18,14 @@
                   (propertize " " 'face 'default)))))
 
 (defun my-eshell-mode-hook ()
-  (local-set-key (kbd "C-l") 'eshell/clear))
+  (local-set-key (kbd "C-l") 'eshell/clear)
+  ; ansi-color-names-vector are: ["black" "red" "green" "yellow" "blue" "magenta" "cyan" "white"]
+  (setq ansi-color-names-vector ["#242424" "#e5786d" "#95e454" "#e9b96e" "#8ac6f2" "#cc99cc" "Cyan" "#f6f3e8"])
+  (setq ansi-color-map (ansi-color-make-color-map)))
 
 (add-hook 'eshell-mode-hook 'my-eshell-mode-hook)
+
+(setq eshell-aliases-file (concat "~/.emacs.d/" user-login-name "/eshell/alias"))
 
 ;; (custom-set-faces
 ;;  ;; '(eshell-ls-archive ((((class color) (background dark)) (:foreground "salmon"))))
