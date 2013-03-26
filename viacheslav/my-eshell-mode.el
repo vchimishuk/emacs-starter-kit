@@ -18,6 +18,8 @@
                   (propertize " " 'face 'default)))))
 
 (defun my-eshell-mode-hook ()
+  ;(eshell/export "EDITOR=emacsclient")
+  (setenv "EDITOR" "emacsclient")
   (local-set-key (kbd "C-l") 'eshell/clear)
   ; ansi-color-names-vector are: ["black" "red" "green" "yellow" "blue" "magenta" "cyan" "white"]
   (setq ansi-color-names-vector ["#242424" "#e5786d" "#95e454" "#e9b96e" "#8ac6f2" "#cc99cc" "Cyan" "#f6f3e8"])
