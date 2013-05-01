@@ -2,8 +2,8 @@
 
 ;; (add-to-list 'load-path "/usr/share/emacs/site-lisp/yas")
 (require 'yasnippet) ;; not yasnippet-bundle
-(yas/initialize)
-(yas/load-directory "~/.emacs.d/elpa/yasnippet-0.6.1/snippets")
+(yas--initialize)
+(yas/load-directory "~/.emacs.d/elpa/yasnippet-0.8.0/snippets")
 
 ;; yasnippet and auto-complete integration.
 (defun ac-yasnippet-candidate ()
